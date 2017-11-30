@@ -1,0 +1,18 @@
+{
+"PRICE_FILE_PATH" : "/home/nishantrai/Documents/data/Training_Data/Adjusted_FUT_Data/",
+"TRADE_FILE_PATH" : "results/tradeLog.csv",
+"TRADE_COMMISSION": 0.0005,
+"INIT_BUDGET"  : 100000,
+"STOCK_LIST"   : ["AXISBANK", "BANKBARODA", "BANKINDIA", "CANBK", "HDFCBANK", "ICICIBANK", "INDUSINDBK", "KOTAKBANK", "PNB", "SBIN", "UNIONBANK"],
+"LOG_PERIOD"   : 9000,
+"PERIOD_LIST"  : [["2010/01/01", "2010/12/31"], ["2012/01/01", "2012/12/31"], ["2014/01/01", "2014/12/31"], ["2016/01/01", "2016/12/31"]],
+"APPEND"       : false,
+"LOG_POSITION" : true,
+"HOLD_PERIOD"  : 15,
+"TRADE_FACT"   : 0.1,
+"TRADE_FREQ"   : 300,
+"VOL_LOOKBACK" : 600,
+"RET_PERIOD"   : 1200,
+"STD_DEV_METHOD": "STD",
+"LAG"           : 0
+}
